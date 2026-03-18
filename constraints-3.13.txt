@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-03-18T02:02:14.489421
+# This constraints file was automatically generated on 2026-03-18T14:00:55.698581
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -65,7 +65,7 @@ a2wsgi==1.10.10
 adal==1.2.7
 adlfs==2026.2.0
 aenum==3.1.16
-aiobotocore==3.2.1
+aiobotocore==3.3.0
 aiofiles==24.1.0
 aiohappyeyeballs==2.6.1
 aiohttp-cors==0.8.1
@@ -170,8 +170,8 @@ bitarray==3.8.0
 black==26.3.1
 bleach==6.3.0
 blinker==1.9.0
-boto3==1.42.61
-botocore==1.42.61
+boto3==1.42.70
+botocore==1.42.70
 cachelib==0.13.0
 cachetools==6.2.6
 cadwyn==6.0.4
@@ -481,9 +481,9 @@ pybreaker==1.4.1
 pycountry==26.2.16
 pycparser==3.0
 pycryptodome==3.23.0
-pydantic-ai-slim==1.69.0
+pydantic-ai-slim==1.70.0
 pydantic-extra-types==2.11.1
-pydantic-graph==1.69.0
+pydantic-graph==1.70.0
 pydantic-settings==2.13.1
 pydantic==2.12.5
 pydantic_core==2.41.5
