@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-03-17T07:45:34.571380
+# This constraints file was automatically generated on 2026-03-18T02:23:10.786652
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -62,6 +62,9 @@ WTForms==3.2.1
 Werkzeug==3.1.6
 a2wsgi==1.10.10
 adal==1.2.7
+adbc-driver-manager==1.10.0
+adbc-driver-postgresql==1.10.0
+adbc-driver-sqlite==1.10.0
 adlfs==2026.2.0
 aenum==3.1.16
 aiobotocore==3.2.1
@@ -120,14 +123,13 @@ apache-airflow-providers-redis==4.4.2
 apache-airflow-providers-segment==3.9.2
 apache-airflow-providers-sendgrid==4.2.1
 apache-airflow-providers-singularity==3.9.2
-apache-airflow-providers-snowflake==6.4.0
 apache-airflow-providers-telegram==4.9.2
 apache-airflow-providers-weaviate==3.3.1
 apache-airflow-providers-zendesk==4.11.1
 apispec==6.10.0
 apprise==1.9.8
 argcomplete==3.6.3
-asana==5.2.2
+asana==5.2.3
 asgiref==3.11.1
 asn1crypto==1.5.1
 asttokens==3.0.1
@@ -189,7 +191,7 @@ click-didyoumean==0.3.1
 click-plugins==1.1.1.2
 click-repl==0.3.0
 click==8.3.1
-cloudpickle==3.1.2
+cloudpickle==3.1.1
 cohere==5.20.7
 colorama==0.4.6
 colorful==0.5.8
@@ -249,7 +251,7 @@ gitdb==4.0.12
 google-ads==29.2.0
 google-analytics-admin==0.27.0
 google-api-core==2.30.0
-google-api-python-client==2.192.0
+google-api-python-client==2.193.0
 google-auth-httplib2==0.3.0
 google-auth-oauthlib==1.3.0
 google-auth==2.49.1
@@ -299,7 +301,7 @@ google-cloud-videointelligence==2.18.0
 google-cloud-vision==3.12.1
 google-cloud-workflows==1.20.0
 google-crc32c==1.8.0
-google-genai==1.67.0
+google-genai==1.68.0
 google-resumable-media==2.8.0
 googleapis-common-protos==1.73.0
 graphviz==0.21
@@ -330,11 +332,12 @@ humanize==4.15.0
 hvac==2.4.0
 hyperframe==6.1.0
 ibm-cloud-sdk-core==3.24.4
-ibmcloudant==0.11.4
+ibmcloudant==0.11.5
 idna==3.11
 ijson==3.4.0.post0
 immutabledict==4.3.1
 importlib_metadata==8.7.1
+importlib_resources==6.5.2
 impyla==0.22.0
 inflection==0.5.1
 influxdb-client==1.50.0
@@ -370,7 +373,7 @@ lazy-object-proxy==1.12.0
 libcst==1.8.6
 limits==5.8.0
 linkify-it-py==2.1.0
-litellm==1.82.3
+litellm==1.82.4
 lockfile==0.12.2
 logfire-api==4.29.0
 looker_sdk==26.4.0
@@ -412,9 +415,9 @@ nbconvert==7.17.0
 nbformat==5.10.4
 neo4j==6.1.0
 nest-asyncio==1.6.0
-numpy==1.26.4
+numpy==2.4.3
 oauthlib==3.3.1
-openai==2.28.0
+openai==2.29.0
 opencensus-context==0.1.3
 opencensus==0.11.4
 openlineage-integration-common==1.45.0
@@ -443,7 +446,7 @@ packaging==26.0
 pagerduty==6.2.1
 pandas-gbq==0.34.0
 pandas-stubs==3.0.0.260204
-pandas==2.1.4
+pandas==2.3.3
 pandocfilters==1.5.1
 papermill==2.7.0
 paramiko==3.5.1
@@ -459,8 +462,8 @@ pinecone==7.0.1
 pinotdb==9.1.1
 platformdirs==4.9.4
 pluggy==1.6.0
-polars-runtime-32==1.39.0
-polars==1.39.0
+polars-runtime-32==1.39.2
+polars==1.39.2
 portalocker==3.2.0
 presto-python-client==0.8.4
 prison==0.2.1
@@ -550,7 +553,7 @@ scramp==1.4.8
 scrapbook==0.5.0
 segment-analytics-python==2.3.3
 sendgrid==6.12.2
-sentry-sdk==2.54.0
+sentry-sdk==2.55.0
 setproctitle==1.3.7
 setuptools==82.0.1
 shellingham==1.5.4
@@ -562,6 +565,7 @@ smbprotocol==1.16.0
 smmap==5.0.3
 sniffio==1.3.1
 snowflake-connector-python==4.3.0
+snowflake-snowpark-python==1.47.0
 snowflake-sqlalchemy==1.9.0
 sortedcontainers==2.4.0
 soupsieve==2.8.3
@@ -624,6 +628,7 @@ weaviate-client==4.20.4
 webencodings==0.5.1
 websocket-client==1.8.0
 websockets==16.0
+wheel==0.46.3
 wirerope==1.0.0
 wrapt==2.1.2
 xmlsec==1.3.17
