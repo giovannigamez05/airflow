@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-05-11T16:29:10.323472
+# This constraints file was automatically generated on 2026-05-12T05:17:52.353990
 # via `uv sync --resolution highest for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version of both
 # 'apache-airflow' package and all available community provider distributions.
@@ -465,7 +465,7 @@ pendulum==3.2.0
 pexpect==4.9.0
 pgvector==0.4.2
 pinecone==9.0.0
-pinotdb==9.1.1
+pinotdb==5.7.0
 pipdeptree==2.35.2
 platformdirs==4.9.6
 pluggy==1.6.0
@@ -697,7 +697,7 @@ tzlocal==5.3.1
 uc-micro-py==2.0.0
 universal_pathlib==0.3.10
 uritemplate==4.2.0
-urllib3==2.6.3
+urllib3==2.7.0
 userpath==1.9.2
 uuid6==2025.0.1
 uv==0.11.9
