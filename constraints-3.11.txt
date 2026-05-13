@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-05-13T05:14:45.345879
+# This constraints file was automatically generated on 2026-05-13T20:07:09.529359
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -67,7 +67,7 @@ adbc-driver-postgresql==1.11.0
 adbc-driver-sqlite==1.11.0
 adlfs==2026.5.0
 aenum==3.1.17
-aiobotocore==3.6.0
+aiobotocore==3.7.0
 aiofiles==24.1.0
 aiohappyeyeballs==2.6.1
 aiohttp-cors==0.8.1
@@ -147,7 +147,7 @@ bleach==6.3.0
 blinker==1.9.0
 boto3==1.43.0
 botocore==1.43.0
-cachelib==0.13.0
+cachelib==0.14.0
 cachetools==7.1.1
 cadwyn==6.2.2
 cassandra-driver==3.30.0
@@ -530,7 +530,7 @@ shellingham==1.5.4
 simple-salesforce==1.12.9
 six==1.17.0
 slack_sdk==3.41.0
-smart_open==7.6.0
+smart_open==7.6.1
 smbprotocol==1.16.1
 smmap==5.0.3
 sniffio==1.3.1
@@ -582,7 +582,7 @@ universal_pathlib==0.3.10
 uritemplate==4.2.0
 urllib3==2.7.0
 uuid6==2025.0.1
-uv==0.11.13
+uv==0.11.14
 uvicorn==0.46.0
 uvloop==0.22.1
 validators==0.35.0
