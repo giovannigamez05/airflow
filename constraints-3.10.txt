@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-06-05T21:58:46.488163
+# This constraints file was automatically generated on 2026-06-06T11:03:05.182272
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -115,7 +115,7 @@ attrs==26.1.0
 azure-batch==14.2.0
 azure-common==1.1.28
 azure-core==1.41.0
-azure-cosmos==4.16.0
+azure-cosmos==4.16.1
 azure-datalake-store==0.0.53
 azure-identity==1.25.3
 azure-keyvault-secrets==4.11.0
@@ -336,7 +336,7 @@ jeepney==0.9.0
 jiter==0.15.0
 jmespath==1.1.0
 joblib==1.5.3
-joserfc==1.6.8
+joserfc==1.7.0
 jpype1==1.7.1
 jsonpath-ng==1.8.0
 jsonpath-python==1.1.6
@@ -467,9 +467,9 @@ pybreaker==1.4.1
 pycountry==26.2.16
 pycparser==3.0
 pycryptodome==3.23.0
-pydantic-ai-slim==1.104.0
+pydantic-ai-slim==1.105.0
 pydantic-extra-types==2.11.1
-pydantic-graph==1.104.0
+pydantic-graph==1.105.0
 pydantic-settings==2.14.1
 pydantic==2.13.4
 pydantic_core==2.46.4
