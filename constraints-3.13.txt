@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-06-24T10:55:57.403276
+# This constraints file was automatically generated on 2026-06-26T21:27:23.962072
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -73,7 +73,7 @@ aiohttp==3.14.1
 aioitertools==0.13.0
 aiomysql==0.3.2
 aiosignal==1.4.0
-aiosmtplib==5.1.1
+aiosmtplib==5.1.2
 aiosqlite==0.21.0
 airbyte-api==0.53.0
 akeyless==5.0.28
@@ -118,7 +118,7 @@ azure-datalake-store==0.0.53
 azure-identity==1.25.3
 azure-keyvault-secrets==4.11.0
 azure-kusto-data==6.0.4
-azure-mgmt-compute==38.0.0
+azure-mgmt-compute==38.1.0
 azure-mgmt-containerinstance==10.1.0
 azure-mgmt-containerregistry==15.0.0
 azure-mgmt-core==1.6.0
@@ -367,12 +367,12 @@ mdurl==0.1.2
 memray==1.19.3
 mergedeep==1.3.4
 methodtools==0.4.7
-microsoft-kiota-abstractions==1.10.3
-microsoft-kiota-authentication-azure==1.10.3
-microsoft-kiota-http==1.10.3
-microsoft-kiota-serialization-json==1.10.3
-microsoft-kiota-serialization-text==1.10.3
-mistune==3.2.1
+microsoft-kiota-abstractions==1.11.5
+microsoft-kiota-authentication-azure==1.11.5
+microsoft-kiota-http==1.11.5
+microsoft-kiota-serialization-json==1.11.5
+microsoft-kiota-serialization-text==1.11.5
+mistune==3.3.1
 mmh3==5.2.1
 more-itertools==11.1.0
 msal-extensions==1.3.1
@@ -396,7 +396,7 @@ nbformat==5.10.4
 neo4j==6.2.0
 nest-asyncio2==1.7.2
 nest-asyncio==1.6.0
-numpy==2.4.6
+numpy==2.5.0
 oauthlib==3.3.1
 openai==2.43.0
 opencensus-context==0.1.3
@@ -498,7 +498,7 @@ python-slugify==8.0.4
 python-telegram-bot==22.8
 pytokens==0.4.1
 pytz==2026.2
-pyvespa==1.2.1
+pyvespa==1.2.2
 pywinrm==0.5.0
 pyzmq==27.1.0
 qdrant-client==1.18.0
@@ -514,7 +514,7 @@ requests-oauthlib==2.0.0
 requests-toolbelt==1.0.0
 requests==2.34.2
 requests_ntlm==1.3.0
-retryhttp==1.4.0
+retryhttp==1.5.0
 rich-argparse==1.8.0
 rich-toolkit==0.20.1
 rich==13.9.4
@@ -542,7 +542,7 @@ smbprotocol==1.16.1
 smmap==5.0.3
 sniffio==1.3.1
 snowflake-connector-python==4.6.0
-snowflake-sqlalchemy==1.10.1
+snowflake-sqlalchemy==1.10.2
 sortedcontainers==2.4.0
 soupsieve==2.8.4
 spython==0.3.14
@@ -605,10 +605,10 @@ webencodings==0.5.1
 websocket-client==1.8.0
 websockets==16.0
 wirerope==1.0.0
-wrapt==2.2.1
+wrapt==2.2.2
 xmltodict==1.0.4
 yandex-query-client==0.1.4
-yandexcloud==0.395.0
+yandexcloud==0.396.0
 yarl==1.24.2
 ydb-dbapi==0.1.22
 ydb==3.29.4
