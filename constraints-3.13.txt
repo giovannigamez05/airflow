@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-07-01T02:33:34.919787
+# This constraints file was automatically generated on 2026-07-01T20:16:02.144498
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -526,7 +526,7 @@ s3transfer==0.17.1
 sagemaker_studio==1.0.26
 scikit-learn==1.9.0
 scipy==1.18.0
-scramp==1.4.9
+scramp==1.4.10
 scrapbook==0.5.0
 segment-analytics-python==2.3.6
 sendgrid==6.12.5
@@ -537,7 +537,7 @@ shellingham==1.5.4
 simple-salesforce==1.12.9
 six==1.17.0
 slack_sdk==3.42.0
-smart_open==7.7.1
+smart_open==8.0.0
 smbprotocol==1.16.1
 smmap==5.0.3
 sniffio==1.3.1
