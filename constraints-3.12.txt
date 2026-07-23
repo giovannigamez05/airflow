@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-07-22T20:05:51.658966
+# This constraints file was automatically generated on 2026-07-23T08:26:31.699795
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -144,7 +144,7 @@ backoff==2.2.1
 bcrypt==5.0.0
 beautifulsoup4==4.15.0
 billiard==4.2.4
-bitarray==3.9.0
+bitarray==3.9.1
 black==26.5.1
 bleach==6.4.0
 blinker==1.9.0
@@ -205,7 +205,7 @@ facebook_business==25.0.3
 fastapi-cli==0.0.32
 fastapi==0.136.3
 fastavro==1.12.2
-fastcore==2.1.1
+fastcore==2.1.2
 fastjsonschema==2.21.2
 fastuuid==0.14.0
 filelock==3.31.0
@@ -510,7 +510,7 @@ reactivex==4.1.0
 redis==6.4.0
 redshift_connector==2.1.15
 referencing==0.37.0
-regex==2026.7.10
+regex==2026.7.19
 requests-file==3.0.1
 requests-kerberos==0.15.0
 requests-oauthlib==2.0.0
@@ -548,7 +548,7 @@ snowflake-connector-python==4.7.1
 snowflake-snowpark-python==1.53.1
 snowflake-sqlalchemy==1.11.0
 sortedcontainers==2.4.0
-soupsieve==2.8.4
+soupsieve==2.9
 spython==0.3.14
 sqlalchemy-bigquery==1.17.0
 sqlalchemy-spanner==1.19.0
