@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-08-13T19:51:48.746933
+# This constraints file was automatically generated on 2026-08-14T02:39:53.714048
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -205,7 +205,7 @@ facebook_business==26.0.0
 fastapi-cli==0.0.32
 fastapi==0.136.3
 fastavro==1.12.2
-fastcore==2.2.6
+fastcore==2.2.8
 fastjsonschema==2.22.1
 fastuuid==0.14.0
 filelock==3.32.2
@@ -230,7 +230,7 @@ google-api-python-client==2.198.0
 google-auth-httplib2==0.4.1
 google-auth-oauthlib==1.4.0
 google-auth==2.56.3
-google-cloud-aiplatform==1.163.0
+google-cloud-aiplatform==1.164.0
 google-cloud-alloydb==0.11.0
 google-cloud-appengine-logging==1.10.0
 google-cloud-audit-log==0.6.1
@@ -287,10 +287,9 @@ griffelib==2.1.0
 grpc-google-iam-v1==0.14.5
 grpc-interceptor==0.15.4
 grpcio-gcp==0.2.2
-grpcio-health-checking==1.81.1
-grpcio-status==1.83.0
-grpcio-tools==1.81.1
-grpcio==1.83.0
+grpcio-status==1.78.0
+grpcio-tools==1.78.0
+grpcio==1.78.0
 gssapi==1.11.1
 gunicorn==26.0.0
 h11==0.16.0
@@ -608,7 +607,7 @@ virtualenv==21.7.3
 watchfiles==1.2.0
 watchtower==3.4.0
 wcwidth==0.8.2
-weaviate-client==4.16.2
+weaviate-client==4.22.0
 webencodings==0.5.1
 websocket-client==1.8.0
 websockets==16.1.1
