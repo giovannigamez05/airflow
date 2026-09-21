@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-09-21T01:53:37.322500
+# This constraints file was automatically generated on 2026-09-21T07:57:12.942064
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -163,7 +163,7 @@ charset-normalizer==3.5.1
 ciso8601==2.3.3
 click-didyoumean==0.3.1
 click-plugins==1.1.1.2
-click-repl==0.3.0
+click-repl==0.4.0
 click==8.5.0
 clickhouse-connect==1.8.0
 cloudpickle==3.1.1
@@ -474,9 +474,9 @@ pybreaker==1.4.1
 pycountry==26.2.16
 pycparser==3.0
 pycryptodome==3.23.0
-pydantic-ai-slim==2.43.0
+pydantic-ai-slim==2.44.0
 pydantic-extra-types==2.11.1
-pydantic-graph==2.43.0
+pydantic-graph==2.44.0
 pydantic-settings==2.15.0
 pydantic==2.13.5
 pydantic_core==2.46.5
